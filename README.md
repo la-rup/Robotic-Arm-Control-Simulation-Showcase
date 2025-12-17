@@ -1,7 +1,7 @@
 # Robotic Arm Controller Showcase
 
 ## Overview
-This project demonstrates two controller designs applied to a simulated 2‑link planar and 3-link 3D robot arm:
+This project demonstrates two controller designs applied to a MATLAB simulated 2‑link planar and 3-link 3D robot arm:
 1. **PD Control on a falling arm** – tuned to meet strict error, overshoot, and oscillation constraints.
 2. **Scheduled state feedback via `place`** – applied to a trace circle trajectory with configuration‑dependent mass matrices.
 
