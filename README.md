@@ -1,11 +1,13 @@
-# Robotic Arm Controller Showcase (MATLAB Documentation Only)
+# Robotic Arm Controller Showcase
 
 ## Overview
-This project demonstrates two controller designs applied to a simulated 2‑link planar robot arm:
+This project demonstrates two controller designs applied to a simulated 2‑link planar and 3-link 3D robot arm:
 1. **PD Control on a falling arm** – tuned to meet strict error, overshoot, and oscillation constraints.
 2. **Scheduled state feedback via `place`** – applied to a trace circle trajectory with configuration‑dependent mass matrices.
 
-The repo contains **plots, animations, and documentation only** (no source code) to highlight engineering skills while protecting academic integrity. Source code can be made available upon request. *This project was made as part of Oregon State University's ROB 417 Robots and Gyroscopes course.*
+The repo contains **plots, animations, and documentation only** (no source code) to highlight engineering skills while protecting academic integrity. Source code can be made available upon request. 
+
+*This project was made as part of Oregon State University's ROB 417 Robots and Gyroscopes course.*
 
 ## Results
 ### PD Controller:
@@ -30,4 +32,3 @@ The repo contains **plots, animations, and documentation only** (no source code)
 - Control system design (PD tuning, state feedback via `place`)
 - Dynamics modeling and trajectory generation
 - MATLAB simulation, plotting, and animation
-- Clear technical documentation
