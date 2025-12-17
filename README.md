@@ -9,12 +9,13 @@ The repo contains **plots, animations, and documentation only** (no source code)
 
 ## Results
 - **PD Controller:**  
-  ![Joint Angles](plots/joint_angles_pd.jpg)  
+  ![Joint Angle - Link 1](plots/joint_angle_link1.jpg)
+  ![Joint Angle - Link 2](plots/joint_angle_link2.jpg)    
   Animation: `media/falling_arm_pd.mp4`
 
 - **Place Controller (p = 0.1 vs p = 10):**  
-  ![End Effector Paths](plots/end_effector_paths_p_0.1.jpg)  
-  ![End Effector Paths](plots/end_effector_paths_p_10.jpg)  
+  ![End Effector Path - P=0.1](plots/end_effector_path_p_0.1.jpg)  
+  ![End Effector Path - P=10](plots/end_effector_path_p_10.jpg)  
   Animations: `media/trace_circle_p_0.1.mp4`, `media/trace_circle_p_10.mp4`
 
 ## Documentation
