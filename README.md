@@ -8,14 +8,18 @@ This project demonstrates two controller designs applied to a simulated 2‑link
 The repo contains **plots, animations, and documentation only** (no source code) to highlight engineering skills while protecting academic integrity. Source code can be made available upon request. *This project was made as part of Oregon State University's ROB 417 Robots and Gyroscopes course.*
 
 ## Results
-- **PD Controller:**  
-  ![Joint Angle - Link 1](plots/joint_angle_link1.jpg)
-  ![Joint Angle - Link 2](plots/joint_angle_link2.jpg)    
+### PD Controller:
+
+  <img src="plots/joint_angle_link1.jpg" alt="Joint Angle - Link 1" style="width:50%; height:50%;" />
+  <img src="plots/joint_angle_link2.jpg" alt="Joint Angle - Link 2" style="width:50%; height:50%;" />
+   
   Animation: `media/falling_arm_pd.mp4`
 
-- **Place Controller (p = 0.1 vs p = 10):**  
-  ![End Effector Path - P=0.1](plots/end_effector_path_p_0.1.jpg)  
-  ![End Effector Path - P=10](plots/end_effector_path_p_10.jpg)  
+### Place Controller (p = 0.1 vs p = 10):
+
+  <img src="plots/end_effector_path_p_0.1.jpg" alt="End Effector Path - P=0.1" style="width:50%; height:50%;" />
+  <img src="plots/end_effector_path_p_10.jpg" alt="End Effector Path - P=10" style="width:50%; height:50%;" />
+  
   Animations: `media/trace_circle_p_0.1.mp4`, `media/trace_circle_p_10.mp4`
 
 ## Documentation
